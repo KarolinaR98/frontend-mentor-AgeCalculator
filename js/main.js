@@ -63,7 +63,7 @@ $(function () {
         const numYears = $('#num-years');
         const wordYears = $('#word-years');
         const numMonths = $('#num-months');
-        const wordMonths = $('word-months');
+        const wordMonths = $('#word-months');
         const numDays = $('#num-days');
         const wordDays = $('#word-days');
 
@@ -125,8 +125,8 @@ $(function () {
             numMonths.text("- -");
             numDays.text("- -");
             wordYears.text("years");
-            wordMonths.text("years");
-            wordDays.text("years");
+            wordMonths.text("months");
+            wordDays.text("days");
 
         } else {
 
