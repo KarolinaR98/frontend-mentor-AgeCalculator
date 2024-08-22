@@ -42,7 +42,6 @@ main {
 }
 
 .err-msg{
-    position: absolute;
     margin-top: 5px;
     color: var(--ligth-red);
     font-style: italic;
